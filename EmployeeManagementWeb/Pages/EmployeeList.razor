@@ -1,0 +1,23 @@
+﻿@page "/"
+@inherits EmployeeListBase
+
+<h3>Selected Employees Count - @SelectedEmployeesCount</h3>
+<br />
+<br />
+<input type="checkbox" id="showFooter" @bind="ShowFooter" @bind:event="onchange"/> 
+<label for="showFooter">Show Footer</label>
+
+@if(Employees ==null)
+{
+    <div class="spinner">Loading..</div>
+}
+else
+{
+    <div class="card-deck" style="display:flex; flex-direction:row;flex-wrap:wrap">
+        @foreach (var employee in Employees)
+        {
+          <DisplayEmployee Employee="employee" ShowFooter="ShowFooter" 
+              OnEmployeeSelection="EmployeeSelectionChanged"></DisplayEmployee>
+        }
+    </div>
+}
