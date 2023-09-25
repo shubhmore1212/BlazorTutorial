@@ -1,4 +1,5 @@
 using EmployeeManagementWeb;
+using EmployeeManagementWeb.Models;
 using EmployeeManagementWeb.Services;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
@@ -9,7 +10,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+<<<<<<< HEAD
 builder.Services.AddMudServices();
+=======
+builder.Services.AddAutoMapper(typeof(EmployeeProfile));
+>>>>>>> 5e3f393fb8e68cb5445b23b26adf0cee869468a1
 //builder.Services.AddSingleton<WeatherForecastService>();
 
 

@@ -83,11 +83,11 @@ namespace EmployeeManagementApi.Controllers
                 EmployeeId = id,
                 FirstName = employee.FirstName,
                 Gender = employee.Gender,
-                DateOfBirth= employee.DateOfBirth,
-                DepartmentId= employee.DepartmentId,
+                DateOfBirth = employee.DateOfBirth,
+                DepartmentId = employee.DepartmentId,
                 Email = employee.Email,
                 LastName = employee.LastName,
-                PhotoPath= employee.PhotoPath,
+                PhotoPath = employee.PhotoPath,
             };
 
             employeeDomainModel = await employeeRepo.UpdateEmployee(employeeDomainModel);
@@ -98,6 +98,22 @@ namespace EmployeeManagementApi.Controllers
             }
 
             return Ok(employeeDomainModel);
+        }
+
+        [HttpDelete]
+        [Route("{id:int}")]
+        public async Task<ActionResult> DeleteEmployee([FromRoute] int id)
+        {
+            var employeeToDelete = await employeeRepo.GetEmployeeById(id);
+
+            if (employeeToDelete == null)
+            {
+                return NotFound();
+            }
+
+            var result = await employeeRepo.DeleteEmployee(employeeToDelete);
+
+            return Ok(result);
         }
     }
 }
