@@ -8,61 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EmployeeManagementWeb
 build_property.RootNamespace = EmployeeManagementWeb
-build_property.ProjectDir = C:\Users\more_shu\Desktop\Projects\Blazor Tutorials\EmployeeManagementWeb\
+build_property.ProjectDir = C:\Users\shubh\OneDrive\Desktop\Project\BlazorTutorial\EmployeeManagementWeb\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\more_shu\Desktop\Projects\Blazor Tutorials\EmployeeManagementWeb
+build_property.MSBuildProjectDirectory = C:\Users\shubh\OneDrive\Desktop\Project\BlazorTutorial\EmployeeManagementWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/more_shu/Desktop/Projects/Blazor Tutorials/EmployeeManagementWeb/App.razor]
+[C:/Users/shubh/OneDrive/Desktop/Project/BlazorTutorial/EmployeeManagementWeb/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/more_shu/Desktop/Projects/Blazor Tutorials/EmployeeManagementWeb/Pages/DataBindingDemo.razor]
+[C:/Users/shubh/OneDrive/Desktop/Project/BlazorTutorial/EmployeeManagementWeb/Pages/DataBindingDemo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YUJpbmRpbmdEZW1vLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/more_shu/Desktop/Projects/Blazor Tutorials/EmployeeManagementWeb/Pages/DisplayEmployee.razor]
+[C:/Users/shubh/OneDrive/Desktop/Project/BlazorTutorial/EmployeeManagementWeb/Pages/DisplayEmployee.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheUVtcGxveWVlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/more_shu/Desktop/Projects/Blazor Tutorials/EmployeeManagementWeb/Pages/EditEmployee.razor]
+[C:/Users/shubh/OneDrive/Desktop/Project/BlazorTutorial/EmployeeManagementWeb/Pages/EditEmployee.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEVtcGxveWVlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/more_shu/Desktop/Projects/Blazor Tutorials/EmployeeManagementWeb/Pages/EmployeeDetail.razor]
+[C:/Users/shubh/OneDrive/Desktop/Project/BlazorTutorial/EmployeeManagementWeb/Pages/EmployeeDetail.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVEZXRhaWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/more_shu/Desktop/Projects/Blazor Tutorials/EmployeeManagementWeb/Pages/EmployeeList.razor]
+[C:/Users/shubh/OneDrive/Desktop/Project/BlazorTutorial/EmployeeManagementWeb/Pages/EmployeeList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/more_shu/Desktop/Projects/Blazor Tutorials/EmployeeManagementWeb/Pages/Form.razor]
+[C:/Users/shubh/OneDrive/Desktop/Project/BlazorTutorial/EmployeeManagementWeb/Pages/Form.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/more_shu/Desktop/Projects/Blazor Tutorials/EmployeeManagementWeb/_Imports.razor]
+[C:/Users/shubh/OneDrive/Desktop/Project/BlazorTutorial/EmployeeManagementWeb/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/more_shu/Desktop/Projects/Blazor Tutorials/EmployeeManagementWeb/Shared/MainLayout.razor]
+[C:/Users/shubh/OneDrive/Desktop/Project/BlazorTutorial/EmployeeManagementWeb/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-9uh6fkbg21
 
-[C:/Users/more_shu/Desktop/Projects/Blazor Tutorials/EmployeeManagementWeb/Shared/NavMenu.razor]
+[C:/Users/shubh/OneDrive/Desktop/Project/BlazorTutorial/EmployeeManagementWeb/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ftb22xhu5d
 
-[C:/Users/more_shu/Desktop/Projects/Blazor Tutorials/EmployeeManagementWeb/Pages/Error.cshtml]
+[C:/Users/shubh/OneDrive/Desktop/Project/BlazorTutorial/EmployeeManagementWeb/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/more_shu/Desktop/Projects/Blazor Tutorials/EmployeeManagementWeb/Pages/_Host.cshtml]
+[C:/Users/shubh/OneDrive/Desktop/Project/BlazorTutorial/EmployeeManagementWeb/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/more_shu/Desktop/Projects/Blazor Tutorials/EmployeeManagementWeb/Pages/_Layout.cshtml]
+[C:/Users/shubh/OneDrive/Desktop/Project/BlazorTutorial/EmployeeManagementWeb/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

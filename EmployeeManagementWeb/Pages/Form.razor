@@ -1,6 +1,48 @@
 ﻿@page "/form"
+@using EmployeeManagementModels
+@using EmployeeManagementWeb.Services
 <h3>Form</h3>
 
+<MudDataGrid Items="@Employees">
+    <Columns>
+        <HierarchyColumn T="Employee" />
+        <PropertyColumn Property="x => x.FirstName + x.LastName" HeaderColSpan="2" Title="Name" />
+        @*<PropertyColumn Property="x => x.LastName" />*@
+        <PropertyColumn Property="x => x.Email" />
+        <PropertyColumn Property="x => x.Gender" />
+        <PropertyColumn Property="x => x.DateOfBirth" Title="Date of Birth" />
+    </Columns>
+    <ChildRowContent>
+        <MudDataGrid Items="@Employees">
+            <Columns>
+                <PropertyColumn Property="x => x.FirstName" Title="First Name" />
+                <PropertyColumn Property="x => x.LastName" />
+                <PropertyColumn Property="x => x.Email" />
+                <PropertyColumn Property="x => x.Gender" />
+                <PropertyColumn Property="x => x.DateOfBirth" Title="Date of Birth" />
+                <TemplateColumn CellClass="d-flex justify-center">
+                    <CellTemplate Context="group">
+                        <MudStack Row>
+                            <MudButton Size="@Size.Small" Variant="@Variant.Filled" Color="@Color.Primary">Hire</MudButton>
+                        </MudStack>
+                    </CellTemplate>
+                </TemplateColumn>
+            </Columns>
+        </MudDataGrid>
+    </ChildRowContent>
+</MudDataGrid>
+
+
+
 @code {
+    public IEnumerable<Employee> Employees { get; set; }
+
+    [Inject]
+    public IEmployeeService EmployeeService { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Employees = (await EmployeeService.GetEmployee()).ToList();
+    }
 
 }
